@@ -9,6 +9,7 @@ resource "ibm_container_cluster" "cluster" {
   private_vlan_id   = "${var.private_vlan_id}"
 }
 
+
 resource "random_id" "name" {
   byte_length = 4
 }
